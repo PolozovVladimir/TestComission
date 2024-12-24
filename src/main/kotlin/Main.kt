@@ -24,7 +24,7 @@ fun commission (card: String , formerTransfers: Int , currentTransfer: Double ):
         "Visa" -> {
             commission = currentTransfer * 0.0075
             if (commission < 35) {
-                commission = 35.0
+                commission = 0.0
             }
         }
 
